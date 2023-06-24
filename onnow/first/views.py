@@ -7,3 +7,6 @@ from django.views import View
 
 def home(request):
     return HttpResponse("helllo tasin")
+
+def underwear(request):
+    return HttpResponse("thank you for the underwear")
